@@ -1,0 +1,132 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__main{
+    width: 100%;
+}
+
+/*----------------Seccion Header----------------*/
+
+.container__header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.container__header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(235, 15, 15);
+}
+
+.container__header__nav__extra{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.container__header__nav__extra__name{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.container__header__nav__links{
+    width: 600px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__list{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__links{
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container__header__information{
+    width: 650px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    border: 1px solid black;
+}
+
+.container__header__btn__cv{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+/* --------------Projectos -------------*/
+
+.container__projects{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.container__projects__title{
+    margin-bottom: 30px;
+}
+
+.container__projects__division{
+    display: flex;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.container__projects__div{
+    border: 1px solid black;
+    width: 310px;
+    height: 270px;
+}
+
+
+/*-----------Education and Skills---------------*/
+
+.container__education{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
